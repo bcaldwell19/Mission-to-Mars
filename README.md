@@ -4,14 +4,16 @@
 > You’ll help Robin scrape, organize, analyze, and visualize the data. As you work on this Challenge, remember that you’re strengthening the same core skills that you’ve been developing until now: collecting data, organizing and storing data, analyzing data, and then visually communicating your insights.
 
 
-Deliverable 1: Scrape titles and preview text from Mars news articles.
+**Deliverable 1**: Scrape titles and preview text from Mars news articles.
 
 
-Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
+**Deliverable 2**: Scrape and analyze Mars weather data, which exists in a table.
 
 
 **Language**: Python
+
 **Topic**: Basic Web Scraping
+
 **Library**: Splinter, Beautiful Soup, Pandas, Matplotlib
 __________________________________________________
 
@@ -30,25 +32,28 @@ There are 12 months in mars’ year according to the provided data set.
 
 There was a total of 1867 martian days worth of data in the data set.
 
-## The data was analyzed to answer the following questions, and a data visualization was created to support each answer:
+### The data was analyzed to answer the following questions, and a data visualization was created to support each answer:
 
 ### Which month, on average, has the lowest temperature? The highest?
 
 Mars' third month on average has the lowest temperatures. The eighth month has the highest temperature.
 
 Figure 1:
-![High and Low Temps](/Mission-to-Mars/images/avg_tmp.png)
+
+![High and Low Temps](/images/avg_tmp.png)
 
 ### Which month, on average, has the lowest atmospheric pressure? The highest?
 
 Mars' sixth month on average has the lowest atmospheric pressure. The ninth month has the highest atmospheric pressure.
 
 Figure 2:
-![High and Low atmospheric pressure](/Mission-to-Mars/images/avg_atm_p.png)
+
+![High and Low atmospheric pressure](/images/avg_atm_p.png)
 
 ### How many terrestrial days exist in a Martian year?
 
 If we assume one trough at approximately 1100 and another at 450; you can assume that a martian year is about 650 terrestrial days long.
 
 Figure 3:
-![Mars Temperature](/Mission-to-Mars/images/min_tmp_all.png)
+
+![Mars Temperature](/images/min_tmp_all.png)
